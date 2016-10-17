@@ -29,6 +29,10 @@
   padding-bottom:15px;
 }
 
+.scrolled-menu{
+    background-color: #fff !important;
+}
+
 /* = SECONDARY MENU TWEAKS
 ------------------------------------------------------- */
 #et-secondary-nav{
