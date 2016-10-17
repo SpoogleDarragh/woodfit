@@ -28,3 +28,15 @@
   padding-top:15px;
   padding-bottom:15px;
 }
+
+/* = SECONDARY MENU TWEAKS
+------------------------------------------------------- */
+#et-secondary-nav{
+    padding-top: 40px;
+}
+#et-secondary-nav .menu-item a{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 8.5px;
+}
