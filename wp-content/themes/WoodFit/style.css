@@ -12,3 +12,19 @@
  
 /* =Theme customization starts here
 ------------------------------------------------------- */
+
+
+/* = UBER MENU TWEAKS
+------------------------------------------------------- */
+.et_header_style_left div.logo_container{/*position lego relatively*/
+    position:relative;
+    padding:20px 0;
+    width:auto;
+    height:auto;
+    float:left;
+}
+
+.ubermenu-main .ubermenu-item-level-0 > .ubermenu-target{
+  padding-top:15px;
+  padding-bottom:15px;
+}
