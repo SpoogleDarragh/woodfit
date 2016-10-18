@@ -29,8 +29,23 @@
   padding-bottom:15px;
 }
 
-.scrolled-menu{
-    background-color: #fff !important;
+.ubermenu-submenu{
+    border-top: 3px solid #fd8934!important;
+    margin-top: 45px !important; /* make sure this is desktop only */
+}
+
+
+/* = Main header MENU TWEAKS
+------------------------------------------------------- */
+header#main-header{
+    background-color: rgba(255, 255, 255, 1); /* override the default transperant bg*/
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1)!important;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1)!important;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1)!important;
+}
+
+div#top-header{
+    background-color: rgba(255, 255, 255, 1); /* override the default transperant bg*/
 }
 
 /* = SECONDARY MENU TWEAKS
@@ -39,7 +54,7 @@
     padding-top: 40px;
 }
 #et-secondary-nav .menu-item a{
-    border: 1px solid #fff;
+    border: 1px solid #333333;
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 8.5px;

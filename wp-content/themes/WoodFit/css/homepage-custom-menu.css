@@ -1,0 +1,49 @@
+/* MAIN menu overrides
+-----------------------------*/
+
+#main-header{
+	background-color: rgba(0, 0, 0, 0.0)!important; /* override the white bg on hp only*/
+}
+
+#main-header .ubermenu .ubermenu-target-text{
+	color: #ffffff;
+}
+
+#main-header .ubermenu-has-submenu-drop>.ubermenu-target:after {
+    color: #ffffff;
+}
+
+
+/* TOP menu overrides
+-----------------------------*/
+#top-header{
+	background-color: rgba(0, 0, 0, 0.0)!important;
+}
+
+#et-secondary-nav .menu-item a{
+    border: 1.5px solid #ffffff!important;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 8.5px;
+}
+
+
+/* What happens to the menu when scrolled on the homepage
+-----------------------------------------------------------*/
+/* Being more specific to override the styles above*/
+
+header#main-header.scrolled-menu{
+    background-color: #ffffff !important;
+    top: 0 !important;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1)!important;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1)!important;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1)!important;
+}
+
+header#main-header.scrolled-menu .ubermenu .ubermenu-target-text{
+	color: #333333;
+}
+header#main-header.scrolled-menu .ubermenu-has-submenu-drop>.ubermenu-target:after {
+    color: #333333;
+}
