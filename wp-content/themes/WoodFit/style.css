@@ -136,3 +136,38 @@ div.effect-ming:hover .et_pb_blurb_container {
 div.effect-ming:hover img {
     opacity: 0.4;
 }
+
+
+/* = Testimonials Slider Settings
+------------------------------------------------------- */
+a.testimonial-next-button, a.testimonial-prev-button{
+    background: rgba(207, 175, 126, 0.3);
+    margin: 0 2px;
+    border-radius: 3px;
+    font-size: 2em;
+    font-family: "ETmodules" !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1;
+    text-transform: none;
+    speak: none;
+}
+
+a.testimonial-next-button:before{
+    content: '\35';
+}
+a.testimonial-prev-button:before{
+    content: '\34';
+}
+
+a.testimonial-next-button span, a.testimonial-prev-button span{
+    display: none;
+}
+
+div.testimonial-slider-controls{
+    float:right;
+}
+
