@@ -1,0 +1,81 @@
+<style>
+	div.effect-ming {
+	background: #030c17;
+}
+
+div.effect-ming img {
+	opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+div.effect-ming figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	border: 2px solid #fff;
+	box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(1.4,1.4,1);
+	transform: scale3d(1.4,1.4,1);
+}
+
+div.effect-ming h2 {
+	margin: 20% 0 10px 0;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+div.effect-ming p {
+	padding: 1em;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+div.effect-ming:hover h2 {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+div.effect-ming:hover figcaption::before,
+div.effect-ming:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+div.effect-ming:hover figcaption {
+	background-color: rgba(58,52,42,0);
+}
+
+div.effect-ming:hover img {
+	opacity: 0.4;
+}
+</style>
+
+<div class="et_pb_blurb et_pb_module et_pb_bg_layout_light et_pb_text_align_center  et_pb_blurb_0 et_pb_blurb_position_top">
+	<div class="et_pb_blurb_content">
+		<div class="et_pb_main_blurb_image"><img src="http://woodfit.dev/wp-content/uploads/2016/10/Simplified.jpg" alt="" class="et-waypoint et_pb_animation_top et-animated"></div>
+		<div class="et_pb_blurb_container">
+			<h4>Simplified</h4>
+			<p>We’ll help you plan your project and overcome any challenges.</p>
+		</div>
+	</div> <!-- .et_pb_blurb_content -->
+</div>
+
+<div class="effect-ming">
+						<img src="http://woodfit.dev/wp-content/uploads/2016/10/Simplified.jpg" alt="img09">
+						<figcaption>
+							<h2>Funny <span>Ming</span></h2>
+							<p>Ming sits in the corner the whole day. She's into crochet.</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</div>

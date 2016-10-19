@@ -1,3 +1,15 @@
+/* TYPOGRAPHY SETTINGS
+------------------------*/
+.home h2{
+	color: #a89b94;
+	font-size: 1.65rem;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+
+
+
 /* MAIN menu overrides
 -----------------------------*/
 
@@ -28,6 +40,22 @@
     font-size: 8.5px;
 }
 
+
+
+/* Homepage slider overrides
+-----------------------------*/
+div.et_pb_slide_description{
+	background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 240px;
+    margin-top: 175px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    max-width: 610px;
+}
+
+a.et_pb_more_button {
+    margin-top: 40px;
+}
 
 /* What happens to the menu when scrolled on the homepage
 -----------------------------------------------------------*/

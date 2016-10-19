@@ -59,3 +59,80 @@ div#top-header{
     padding: 5px 10px;
     font-size: 8.5px;
 }
+
+
+/* = YOUR VISION HOVER EFFECTS
+------------------------------------------------------- */
+div.effect-ming {
+   /* background: #030c17;*/
+}
+
+div.effect-ming .et_pb_blurb_content img {
+    opacity: 0.9;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+div.effect-ming .et_pb_blurb_container{
+    position: absolute;
+    top:0;
+    height: 100%;
+    padding: 0 25px;
+}
+
+div.effect-ming .et_pb_blurb_content .et_pb_blurb_container::before {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #fff;
+   /* box-shadow: 0 0 0 30px rgba(255,255,255,0.2);*/
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.4,1.4,1);
+    transform: scale3d(1.4,1.4,1);
+}
+
+div.effect-ming .et_pb_blurb_container h4 {
+    padding: 0 0.5em;
+    color: #5d6a74!important;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 20% 0 10px 0;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+
+div.effect-ming .et_pb_blurb_container p {
+    padding: 0 1em;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+div.effect-ming:hover h4 {
+    color: #ffffff!important;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+div.effect-ming:hover .et_pb_blurb_container::before,
+div.effect-ming:hover p {
+    opacity: 1;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+}
+
+div.effect-ming:hover .et_pb_blurb_container {
+    background-color: rgba(58,52,42,0);
+}
+
+div.effect-ming:hover img {
+    opacity: 0.4;
+}
