@@ -31,7 +31,8 @@
 
 .ubermenu-submenu{
     border-top: 3px solid #fd8934!important;
-    margin-top: 45px !important; /* make sure this is desktop only */
+    margin-top: 2em !important; /* make sure this is desktop only */
+    color: #666666;
 }
 
 
@@ -54,7 +55,7 @@ div#top-header{
     padding-top: 40px;
 }
 #et-secondary-nav .menu-item a{
-    border: 1px solid #333333;
+    border: 1px solid #4d4d4f;
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 8.5px;
@@ -142,6 +143,7 @@ div.effect-ming:hover img {
 ------------------------------------------------------- */
 a.testimonial-next-button, a.testimonial-prev-button{
     background: rgba(207, 175, 126, 0.3);
+    color: #ffffff!important;
     margin: 0 2px;
     border-radius: 3px;
     font-size: 2em;
@@ -154,10 +156,13 @@ a.testimonial-next-button, a.testimonial-prev-button{
     line-height: 1;
     text-transform: none;
     speak: none;
+    cursor: pointer!important;
 }
 
 a.testimonial-next-button:before{
+    cursor: pointer!important;
     content: '\35';
+
 }
 a.testimonial-prev-button:before{
     content: '\34';
@@ -171,3 +176,24 @@ div.testimonial-slider-controls{
     float:right;
 }
 
+div.et_pb_testimonial{
+    margin-bottom: 0px!important;
+}
+/* = Client Slider Settings
+------------------------------------------------------- */
+.client-logo-slider .slick-slide{
+    margin: 0 3em;
+}
+
+div.et_pb_column_11{
+    width: 10% !important;
+}
+
+div.et_pb_column_12{
+    width: 84% !important;
+}
+
+
+div.footer-widget #text-2{
+    text-align: right;
+}

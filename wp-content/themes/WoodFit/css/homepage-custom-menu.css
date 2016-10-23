@@ -8,27 +8,62 @@
 }
 
 
-
-
 /* MAIN menu overrides
 -----------------------------*/
-
+/*transparent menu background colour*/
 #main-header{
 	background-color: rgba(0, 0, 0, 0.0)!important; /* override the white bg on hp only*/
 }
 
+/*menu text and chevron colour set to white*/
 #main-header .ubermenu .ubermenu-target-text{
 	color: #ffffff;
 }
 
-#main-header .ubermenu-has-submenu-drop>.ubermenu-target:after {
+#main-header .ubermenu-has-submenu-drop > .ubermenu-target:after {
     color: #ffffff;
 }
+
+/*change background of li to blue on hover*/
+ul.ubermenu-nav > li a:hover {
+    background: #4d4d4f !important;
+}
+
+/*change color of submenu item text*/
+#main-header .ubermenu-submenu span.ubermenu-target-title.ubermenu-target-text{
+    color: #4d4d4f!important;
+}
+
+/*#main-header .ubermenu .uber-submenu .ubermenu-target-text{
+    color: #4d4d4f !important;
+}*/
+
+/*ul.ubermenu-nav > li a:active {
+    background: #4d4d4f !important;
+}
+
+#main-header.ubermenu  li.ubermenu-item:hover{
+    background: #4d4d4f!important;
+}
+
+#main-header .ubermenu li.ubermenu-item:hover{
+	background: transparent!important;
+    color: #4d4d4f;
+}*/
+
+
+
+/*#main-header .ubermenu .ubermenu-target-text:hover{
+	color: #000000;
+}
+*/
+
+
 
 
 /* TOP menu overrides
 -----------------------------*/
-#top-header{
+#page-container div#top-header{
 	background-color: rgba(0, 0, 0, 0.0)!important;
 }
 

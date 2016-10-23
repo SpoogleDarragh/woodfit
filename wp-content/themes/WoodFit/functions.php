@@ -13,6 +13,12 @@ function enqueue_parent_theme_style() {
     	wp_enqueue_style('css-menu-customisation', get_stylesheet_directory_uri() . '/css/homepage-custom-menu.css');
     	wp_enqueue_script('js-menu-customisation', get_stylesheet_directory_uri() . '/js/custom-menu.js');
     }
-    
 
 }
+
+function my_et_builder_post_types( $post_types ) {
+    $post_types[] = 'text-blocks';
+     
+    return $post_types;
+}
+add_filter( 'et_builder_post_types', 'my_et_builder_post_types' );
