@@ -16,6 +16,8 @@ function enqueue_parent_theme_style() {
 
 }
 
+require_once( __DIR__ . '/shortcodes/specsheet-shortcode.php');
+
 function my_et_builder_post_types( $post_types ) {
     $post_types[] = 'text-blocks';
      

@@ -1,0 +1,75 @@
+********************************************************************************
+PACKAGE-LOG: 2016-10-24 08:40:10
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.1.18
+WORDPRESS:	4.6.1
+PHP INFO:	5.3.29 | SAPI: apache2handler
+SERVER:		Apache/2.4.10 (Unix) PHP/5.3.29 mod_wsgi/3.4 Python/2.7.6 OpenSSL/1.0.1h 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 28.5MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported 
+TABLES: total:13 | filtered:0 | create:13 
+FILTERED: [] 
+SQL CREATED: 20161024_woodfit_580dc8d81ae812136161024083952_database.sql 
+SQL FILE SIZE: 882.51KB (903687) 
+SQL FILE TIME: 2016-10-24 08:40:10 
+SQL RUNTIME: 0.13 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /Applications/AMPPS/www/woodfit.dev 
+ARCHIVE FILE: 20161024_woodfit_580dc8d81ae812136161024083952_archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	70.77MB 
+STATS:	Dirs 512 | Files 4,673 
+SQL ADDED: 20161024_woodfit_580dc8d81ae812136161024083952_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5185
+    [filename] => /Applications/AMPPS/www/woodfit.dev/wp-snapshots/tmp/20161024_woodfit_580dc8d81ae812136161024083952_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 37.02MB 
+ARCHIVE RUNTIME: 18.60 sec. 
+MEMORY STACK: 30MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [/Applications/AMPPS/www/woodfit.dev/wp-snapshots/tmp/20161024_woodfit_580dc8d81ae812136161024083952_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 882.51KB 
+Installer File: 347.75KB 
+Archive File: 37.02MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 21.36 sec.
+PEAK PHP MEMORY USED: 32.5MB
+DONE PROCESSING => 20161024_woodfit 2016-10-24 08:40:31
+ 
